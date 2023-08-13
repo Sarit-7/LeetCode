@@ -27,11 +27,11 @@ class Solution {
             return n;
         
         int a = 0, b = 1;
-        int c = 0; // Initialize c to 0
+        int c = 0; 
         int MOD = 1000000007;
         
-        for (int i = 2; i <= n; i++) { // Fix loop condition
-            c = (a + b) % MOD; // Apply modulo operation
+        for (int i = 2; i <= n; i++) { 
+            c = (a + b) % MOD; 
             a = b;
             b = c;
         }
