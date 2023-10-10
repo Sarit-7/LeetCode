@@ -30,7 +30,8 @@ class Solution {
             }
 
             int start = i;
-            while (j < n && str[j] != ' ') {
+            while (j < n && str[j] != ' ') //this is for multiple spaces between the words
+            {
                 str[i++] = str[j++];
             }
             reverse(str, start, i - 1);
