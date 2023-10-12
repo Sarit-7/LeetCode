@@ -14,11 +14,11 @@ class Solution {
                                     return false;
                     }
                     else 
-      {
-        char ch = m.get(original);
-        if (ch != replacement)
-          return false;
-      }
+                    {
+                           char ch = m.get(original);
+                           if (ch != replacement)
+                                    return false;
+                    }
             }
             return true;
     }
