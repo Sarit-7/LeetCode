@@ -39,13 +39,13 @@ class Solution {
             {
                     if(first.val!=second.val)
                     {
-                            reverse (newHead);
+                            //reverse (newHead);
                             return false;
                     }
                     first=first.next;
                     second=second.next;
             }
-            reverse(newHead);
+           // reverse(newHead);
             return true;
             
     }
